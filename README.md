@@ -3,4 +3,4 @@
 
 ## Installation
 ### can be dowloaded via the following link
-###### remotes::install_github("rforbiodatascience21/2021_group_04_Rpackage")
+###### remotes::install_github("rforbiodatascience21/2021_group_04_rpackage")

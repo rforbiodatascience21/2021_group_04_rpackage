@@ -11,6 +11,9 @@ chemistry_aa <- function(amino_acid){
                        "P" = "Hydrophobic", "Q" = "Neutral", "R" = "Basic", 
                        "S" = "Polar", "T" = "Polar", "V" = "Hydrophobic", 
                        "W" = "Hydrophobic", "Y" = "Polar")
-  chemistry <- paste(chemistry_table[amino_acid])
+  
+  vector <- unlist(strsplit(x = amino_acid, split = ""))
+  
+  chemistry <- paste(chemistry_table[vector])
   return(chemistry)
 }

@@ -2,10 +2,13 @@
 % Please edit documentation in R/chemistry_aa.R
 \name{chemistry_aa}
 \alias{chemistry_aa}
-\title{R/chemistry_aa.R}
+\title{chemistry of the amino acids}
 \usage{
-chemistry_aa(amino_acid)
+chemistry_aa(amino_acid = ...)
 }
 \description{
+translating the single letter Amino Acid to their properties
+}
+\details{
 R/chemistry_aa.R
 }

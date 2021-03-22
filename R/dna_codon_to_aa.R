@@ -1,4 +1,9 @@
-# R/dna_codons_to_aa.R
+#' R/dna_codons_to_aa.R
+#' @title  Codon table - DNA to amino acid
+#' @description dna triplet codons and the amino acid it codes for
+#' @usage dna_codon_to_aa(dna = aa)
+
+
 dna_codons_to_aa <- function(codons){
   std_code_table <- c("TTT" = "F", "TCT" = "S", "TAT" = "Y", "TGT" = "C",
                       "TTC" = "F", "TCC" = "S", "TAC" = "Y", "TGC" = "C",

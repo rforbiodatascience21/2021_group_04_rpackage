@@ -1,4 +1,7 @@
-# R/mk_codons.R
+#' R/mk_codons.R
+#' @title mk_codons
+#' @description seperated sequence in to codons
+#' @usage mk_codons(dna = ..., s = 1)
 mk_codons <- function(dna, s = 1){
   l = nchar(dna)
   codons <- substring(dna,

@@ -8,5 +8,5 @@
 
 
 ## Installation
-### can be downloaded via the following link
+### can be downloaded via the following link in R -
 ###### remotes::install_github("rforbiodatascience21/2021_group_04_rpackage")
